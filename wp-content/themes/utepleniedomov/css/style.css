@@ -1,0 +1,295 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4f4f4f;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+h5 {
+	font-size: 12px;
+}
+	
+h6 {
+	font-size: 12px;
+
+}
+.first-head {
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
+	font-size: 16px;
+}
+
+.logo {
+	padding: 20px 0;
+}
+
+.info {
+	padding-top: 40px;
+	text-align: right;
+}
+
+.second-header {
+	background-color: rgba(177,177,177,0.15);
+}
+
+.menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menu ul li {
+    padding: 13px 0;
+    border-top: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu ul li a {
+	display: block;
+	color: #696969;
+}
+
+.menu ul li a:hover, .menu li a:active {
+	color: #1c1c1c;
+}
+
+.menu ul li:first-child {
+    border-top: none;
+}
+
+.menu {
+	max-height: 382px;
+	overflow-y: auto;
+}
+
+.menu-button {
+	border-radius: 0 0 3px 3px;
+	border-top: none;
+}
+
+.section1, .section2 {
+	padding: 35px 0;
+}
+
+.section2 {
+	background-color: #fffff0;
+}
+
+.text {
+	text-align: justify;
+}
+
+.hot {
+	background-color: #F8A51C;
+	color: #fff;
+}
+
+.hot.focus, .hot:focus, .hot:hover {
+	background-color: #D58604;
+	color: #fff;
+}
+
+span.wpcf7-not-valid-tip {
+	display: none!important;
+}
+
+div.wpcf7-response-output {
+    margin: 1em 0.5em 1em!important;
+}
+
+.green, .red, .blue {
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.green {
+	background-color: #d0f0c0;
+}
+
+.red {
+	background-color: #fcc2ce;
+}
+
+.blue {
+	background-color: #b1e0f2;
+	margin-bottom: 20px;
+}
+
+.icon {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.title-of-titles {
+	margin-bottom: 40px;
+}
+
+.center-text {
+	text-align: center!important;
+}
+
+.big404 {
+	font-size: 100px;
+}
+
+.mb20 {
+	margin-top: 20px;
+}
+
+.mb20 table {
+	margin-bottom: 0;
+}
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method (До) ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.pr0 {
+		padding-right: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method (После) ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.info {
+	    padding-top: 30px;
+	}
+
+	.info .list-inline>li {
+	    padding-right: 14px;
+	    padding-left: 14px;
+	}
+	
+	.menu {
+		max-height: 307px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.logo img {
+		margin: 0 auto;
+	}
+	
+	.info {
+		padding-top: 20px;
+	}
+
+	.info .list-inline>li {
+	    padding-right: 10px;
+	    padding-left: 10px;
+	}
+
+	.menu {
+		max-height: 224px;
+	}
+
+	.text {
+		margin-bottom: 25px;
+	}
+
+	.last, .pre-last {
+		margin-bottom: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.info {
+		padding-top: 5px;
+		text-align: center;
+		line-height: 30px;
+	}
+	
+	.info ul {
+		margin-bottom: 20px;
+	}
+
+	.video {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.pre-last {
+		margin-bottom: 25px;
+	}
+	
+	.table-responsive {
+		border: none;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	h1 {
+	font-size: 20px;
+	}
+
+	h2 {
+		font-size: 16px;
+	}
+
+	h3 {
+		font-size: 12px;
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
